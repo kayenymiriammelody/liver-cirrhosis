@@ -1,16 +1,16 @@
-#Predicting Mortality in Patients with Liver Cirrhosis Using Logistic Regression
-###Introduction
+# Predicting Mortality in Patients with Liver Cirrhosis Using Logistic Regression
+### Introduction
 Liver cirrhosis is a chronic progressive disease associated with significant morbidity and mortality worldwide. Early identification of patients at high risk of death is essential for timely intervention, improved clinical decision-making, and optimal allocation of healthcare resources.
 This project applies supervised machine learning and statistical modelling techniques to identify factors associated with mortality among patients diagnosed with liver cirrhosis. A logistic regression model was developed to predict mortality and evaluate the contribution of clinical and laboratory variables to patient outcomes.
 
-###Objective
+### Objective
 The objectives of this project were to:
 -	Predict mortality among patients with liver cirrhosis using logistic regression.
 -	Identify independent predictors associated with mortality.
 -	Evaluate the predictive performance of the model using standard classification metrics.
 -	Demonstrate an end-to-end healthcare data science workflow from data preprocessing to model interpretation.
 
-###Skills Demonstrated
+### Skills Demonstrated
 Throughout this project, the following data science and analytical skills were applied:
 -	Data cleaning and preprocessing using Excel
 -	Handling missing values
@@ -27,11 +27,11 @@ Throughout this project, the following data science and analytical skills were a
 -	Interpretation of regression coefficients and Odds Ratios
 -	Clinical interpretation of predictive variables
 
-###Data Sourcing
+### Data Sourcing
 The dataset used in this project was obtained from the UCI Machine Learning repository and contains 294 patients’ data after data cleaning including: patient age, sex, drug allocation, serum bilirubin, cholesterol, albumin, copper, alkaline phosphatase, SGOT, triglycerides, platelet count, prothrombin time, disease stage, presence of ascites, hepatomegaly, spiders, edema, patient outcome (mortality status)
 For this analysis, patients with censored outcomes were excluded to allow the development of a binary classification model for mortality prediction.
 
-###Data Transformation and Modelling
+### Data Transformation and Modelling
 The following preprocessing pipeline was implemented:
 -	Removed records with censored outcomes.
 -	Selected variables relevant to mortality prediction.
@@ -44,7 +44,7 @@ The following preprocessing pipeline was implemented:
 -	Evaluated model performance using classification metrics and ROC-AUC.
 -	Built a statistical logistic regression model using Statsmodels to estimate coefficients, Odds Ratios, confidence intervals, and p-values for predictor interpretation.
 
-###Model Performance Report
+### Model Performance Report
 The logistic regression model demonstrated satisfactory performance in predicting mortality among patients with liver cirrhosis. For patients who survived throughout the follow up duration, the model achieved a precision of 0.76, indicating that 76% of patients predicted to belong to this class were correctly classified. The model also attained a recall of 0.79, meaning it correctly identified 79% of all patients that remained alive throughout the follow up process, with an F1-score of 0.78, reflecting a good balance between precision and recall.
 For patients that died during the follow up process, the model achieved a precision of 0.72, indicating that 72% of patients predicted to belong to this class were correctly classified. The recall was 0.69, showing that the model correctly identified 69% of all who died . The resulting F1-score of 0.71 suggests a reasonably balanced performance in predicting this outcome.
 The ROC-AUC of 0.79  indicates that the model has good discriminatory ability and is suitable for identifying patients at increased risk of the outcome.
