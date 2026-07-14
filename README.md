@@ -1,5 +1,5 @@
 # Predicting Mortality in Patients with Liver Cirrhosis Using Logistic Regression
-![Liver cirrhosis](C:\Users\USER\Downloads\Liver Cirrhosis Treatment in Chennai _ Best Liver Cirrhosis Specialists in India.jfif)
+![Liver cirrhosis](C:\Users\USER\Desktop\Liver Cirrhosis .png)
 ### Introduction
 Liver cirrhosis is a chronic progressive disease associated with significant morbidity and mortality worldwide. Early identification of patients at high risk of death is essential for timely intervention, improved clinical decision-making, and optimal allocation of healthcare resources.
 This project applies supervised machine learning and statistical modelling techniques to identify factors associated with mortality among patients diagnosed with liver cirrhosis. A logistic regression model was developed to predict mortality and evaluate the contribution of clinical and laboratory variables to patient outcomes.
